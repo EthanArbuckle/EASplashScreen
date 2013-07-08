@@ -2,6 +2,7 @@ EASplashScreen
 ==============
 
 Add an awesome sliding splash screen to your app with 3 lines of code!
+
 ![Preview](http://i.imgur.com/k8nEfgH.gif)
 
 # About
