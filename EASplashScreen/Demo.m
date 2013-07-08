@@ -6,24 +6,25 @@
 //  Copyright (c) 2013 Ethan Arbuckle. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Demo.h"
+#import "EASplashScreen.h"
 
-@interface ViewController ()
+@interface Demo ()
 
 @end
 
-@implementation ViewController
+@implementation Demo
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor redColor];
+    EASplashScreen *splashScreen = [[EASplashScreen alloc] initWithSplashScreenImage:[UIImage imageNamed:@"splashScreenImage.jpg"] amountOfSlides:7];
+    splashScreen.delegate = self;
+    splashScreen.view.frame = self.view.bounds;
+    [self.view addSubview:splashScreen.view];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)splashScreenDidFinishTransisioning:(EASplashScreen *)splashController {
+    NSLog(@"Splash screen is off the screen!");
 }
-
 @end

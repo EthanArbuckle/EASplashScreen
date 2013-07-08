@@ -16,9 +16,9 @@
 		5F7EDF40178A98E700EF1AE8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F7EDF3F178A98E700EF1AE8 /* Default.png */; };
 		5F7EDF42178A98E700EF1AE8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F7EDF41178A98E700EF1AE8 /* Default@2x.png */; };
 		5F7EDF44178A98E700EF1AE8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F7EDF43178A98E700EF1AE8 /* Default-568h@2x.png */; };
-		5F7EDF47178A98E700EF1AE8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7EDF45178A98E700EF1AE8 /* MainStoryboard_iPhone.storyboard */; };
-		5F7EDF4A178A98E700EF1AE8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7EDF48178A98E700EF1AE8 /* MainStoryboard_iPad.storyboard */; };
-		5F7EDF4D178A98E700EF1AE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7EDF4C178A98E700EF1AE8 /* ViewController.m */; };
+		5F7EDF4D178A98E700EF1AE8 /* Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7EDF4C178A98E700EF1AE8 /* Demo.m */; };
+		5F7EDF54178A996100EF1AE8 /* splashScreenImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F7EDF53178A996100EF1AE8 /* splashScreenImage.jpg */; };
+		5F7EDF57178A997B00EF1AE8 /* EASplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7EDF56178A997B00EF1AE8 /* EASplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +35,11 @@
 		5F7EDF3F178A98E700EF1AE8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5F7EDF41178A98E700EF1AE8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5F7EDF43178A98E700EF1AE8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5F7EDF46178A98E700EF1AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		5F7EDF49178A98E700EF1AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		5F7EDF4B178A98E700EF1AE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5F7EDF4C178A98E700EF1AE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F7EDF4B178A98E700EF1AE8 /* Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo.h; sourceTree = "<group>"; };
+		5F7EDF4C178A98E700EF1AE8 /* Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo.m; sourceTree = "<group>"; };
+		5F7EDF53178A996100EF1AE8 /* splashScreenImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splashScreenImage.jpg; sourceTree = "<group>"; };
+		5F7EDF55178A997B00EF1AE8 /* EASplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASplashScreen.h; sourceTree = "<group>"; };
+		5F7EDF56178A997B00EF1AE8 /* EASplashScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASplashScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +86,13 @@
 		5F7EDF33178A98E700EF1AE8 /* EASplashScreen */ = {
 			isa = PBXGroup;
 			children = (
+				5F7EDF53178A996100EF1AE8 /* splashScreenImage.jpg */,
 				5F7EDF3C178A98E700EF1AE8 /* AppDelegate.h */,
 				5F7EDF3D178A98E700EF1AE8 /* AppDelegate.m */,
-				5F7EDF45178A98E700EF1AE8 /* MainStoryboard_iPhone.storyboard */,
-				5F7EDF48178A98E700EF1AE8 /* MainStoryboard_iPad.storyboard */,
-				5F7EDF4B178A98E700EF1AE8 /* ViewController.h */,
-				5F7EDF4C178A98E700EF1AE8 /* ViewController.m */,
+				5F7EDF4B178A98E700EF1AE8 /* Demo.h */,
+				5F7EDF4C178A98E700EF1AE8 /* Demo.m */,
+				5F7EDF55178A997B00EF1AE8 /* EASplashScreen.h */,
+				5F7EDF56178A997B00EF1AE8 /* EASplashScreen.m */,
 				5F7EDF34178A98E700EF1AE8 /* Supporting Files */,
 			);
 			path = EASplashScreen;
@@ -165,8 +167,7 @@
 				5F7EDF40178A98E700EF1AE8 /* Default.png in Resources */,
 				5F7EDF42178A98E700EF1AE8 /* Default@2x.png in Resources */,
 				5F7EDF44178A98E700EF1AE8 /* Default-568h@2x.png in Resources */,
-				5F7EDF47178A98E700EF1AE8 /* MainStoryboard_iPhone.storyboard in Resources */,
-				5F7EDF4A178A98E700EF1AE8 /* MainStoryboard_iPad.storyboard in Resources */,
+				5F7EDF54178A996100EF1AE8 /* splashScreenImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +180,8 @@
 			files = (
 				5F7EDF3A178A98E700EF1AE8 /* main.m in Sources */,
 				5F7EDF3E178A98E700EF1AE8 /* AppDelegate.m in Sources */,
-				5F7EDF4D178A98E700EF1AE8 /* ViewController.m in Sources */,
+				5F7EDF4D178A98E700EF1AE8 /* Demo.m in Sources */,
+				5F7EDF57178A997B00EF1AE8 /* EASplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +194,6 @@
 				5F7EDF37178A98E700EF1AE8 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5F7EDF45178A98E700EF1AE8 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F7EDF46178A98E700EF1AE8 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5F7EDF48178A98E700EF1AE8 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F7EDF49178A98E700EF1AE8 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,6 +264,7 @@
 				GCC_PREFIX_HEADER = "EASplashScreen/EASplashScreen-Prefix.pch";
 				INFOPLIST_FILE = "EASplashScreen/EASplashScreen-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -289,6 +276,7 @@
 				GCC_PREFIX_HEADER = "EASplashScreen/EASplashScreen-Prefix.pch";
 				INFOPLIST_FILE = "EASplashScreen/EASplashScreen-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EASplashScreen.h"
 
-@interface ViewController : UIViewController
+@interface Demo : UIViewController <EASplashScreenDelegate>
 
 @end
